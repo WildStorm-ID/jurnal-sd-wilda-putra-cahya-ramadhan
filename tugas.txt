@@ -1,1 +1,1 @@
-mengedit isi file tugas.txt langsung dari github web
+mengedit isi file tugas.txt langsung dari github web 
