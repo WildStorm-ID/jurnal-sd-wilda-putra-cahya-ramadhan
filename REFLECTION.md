@@ -1,0 +1,3 @@
+# Mid-Term Reflection
+
+Materi yang paling sulit saya kuasai selama Minggu 1-7 adalah branching, merging, dan penanganan merge conflict pada Git karena membutuhkan pemahaman alur kerja kolaborasi dalam tim. Saya mengatasinya dengan melakukan latihan langsung menggunakan branch berbeda, mencoba simulasi conflict, serta mempelajari kembali workflow Git melalui praktik berkali kali pada repository pribadi untuk belajar.
