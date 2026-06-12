@@ -1,0 +1,14 @@
+.dashboard-container {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+}
+
+.loading-state {
+    color: #ff9900;
+    font-style: italic;
+}
+
+.data-item {
+    color: #007bff;
+}
