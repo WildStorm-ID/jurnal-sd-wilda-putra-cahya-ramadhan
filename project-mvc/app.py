@@ -1,8 +1,9 @@
-from controllers.api_handler import get_users
-from views.dashboard_component import fetch_data_from_api, render_dashboard
+import os 
 
-if __name__ == "__main__":
-    # Proses Integrasi
-    data = fetch_data_from_api(get_users)
-    if data:
-        render_dashboard(data)
+# Membaca variabel 'APP_USER', defaultnya adalah 'Guest' 
+user_name = os.getenv('APP_USER', 'Guest') 
+app_env = os.getenv('APP_ENV', 'development')
+
+if __name__ == "__main__": 
+    print(f"Halo {user_name}! Aplikasi ini berjalan di dalam kontainer Docker.")
+    print(f"Status Lingkungan: {app_env}")
