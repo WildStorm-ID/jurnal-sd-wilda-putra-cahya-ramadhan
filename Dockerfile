@@ -5,5 +5,7 @@ WORKDIR /app
 ENV APP_USER="Developer Mahasiswa" 
 ENV APP_ENV="development"
 
+COPY ./project-mvc .
+
 COPY . . 
 CMD ["python", "app.py"]
